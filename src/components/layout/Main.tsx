@@ -10,7 +10,7 @@ interface Props{
 export default function Main({children}:Props) {
     
     return (
-        <main className="pt-14 pb-4">
+        <main className="pt-14 pb-10 sm:pb-4">
             <Container>
                 <div className="text-center">
                     <Badge type="secundary">Twitch</Badge>
